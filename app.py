@@ -13,5 +13,9 @@ def login():
 def registo():
     return render_template('registo.html')
 
+@app.route('/carrinho')
+def carrinho():
+    return render_template('carrinho.html')
+
 if __name__ == '__main__':
     app.run()
