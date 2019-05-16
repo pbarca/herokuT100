@@ -17,5 +17,9 @@ def registo():
 def carrinho():
     return render_template('carrinho.html')
 
+@app.route('/galo')
+def galo():
+    return render_template('galo.html')
+
 if __name__ == '__main__':
     app.run()
